@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     int a,b,c;
-    cout<<"Enter Numbers :";
+    cout<<"Enter Three Numbers :";
     cin>>a>>b>>c;
     if(a>b && a>c)
     {
