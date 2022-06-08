@@ -36,7 +36,7 @@ void MonthName(int m)
 int main()
 {   
     int m;
-    cout<<"enter the month";
+    cout<<"Enter The Month Number :";
     cin>>m;
     MonthName(m);
 }
