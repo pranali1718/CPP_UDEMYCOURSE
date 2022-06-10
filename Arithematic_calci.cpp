@@ -33,4 +33,44 @@ int main()
     }
     return 0;
     
+    
+    
+    //ADDITION CODE USING FUNCTION//
+    
+    #include<iostream>
+
+using namespace std;
+
+void ArithOpt()
+{
+    int x, y,choice;
+    cout<<"1.add\n2.sub\n3.mul\n4.div\n";
+    cout<<"Enter your choise:";
+    cin>>choice;
+    cout<<"Enter Number :";
+    cin>>x>>y;
+    switch(choice)
+    {
+        case 1 :
+            cout<<"ANS:"<<x+y;
+            break;
+        case 2 :
+            cout<<"ANS:"<<x-y;
+            break;
+        case 3 :
+            cout<<"ANS:"<<x*y;
+            break;
+        case 4 :
+            cout<<"ANS:"<<x/y;
+            break;
+    }
+}
+int main()
+{
+    
+    ArithOpt();
+    return 0;
+}
+
+
 }
