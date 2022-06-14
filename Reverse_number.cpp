@@ -3,16 +3,17 @@ using namespace std;
     
 int main()
 {
-	int i,n;
-	cout<<"Enter Number:";
+	int n,i,rev=0;
+	cout<<"Enter the Number :";
 	cin>>n;
+	    
 	while(n>0)
 	{
-	    i=n%10;
+		i=n%10;
 	    n=n/10;
-	    cout<<i;
+		rev=rev*10+i;
 	}
-			    
-	return 0;
+	cout<<"Reverse Number is"<<rev;
 	    
+	return 0;
 }
