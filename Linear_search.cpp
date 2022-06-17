@@ -29,3 +29,37 @@ int main()
     }
     
 }
+
+
+*----------------------------------------------------------------------------------------------------------------------------------------------
+    
+    //linear search for input from the user//
+    
+    #include <iostream>
+using namespace std;
+
+int main()
+{
+    int A[5];
+    int n=5,key;
+    cout<<"Enter Elements in array:";
+    for(int i=0;i<n;i++)
+    {
+        cin>>A[i];
+    }
+    cout<<"Enter key";
+    cin>>key;
+    
+    for(int i=0;i<n;i++)
+    {
+        if(key==A[i])
+        {
+            cout<<"Element found at "<<i<<"position";
+            return 0;
+        }
+        
+    }
+   cout<<"Element not found"; 
+    
+    return 0;
+}
