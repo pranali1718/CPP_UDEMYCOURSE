@@ -63,3 +63,28 @@ int main()
     
     return 0;
 }
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int A[]={1,4,5,6,7,8,9};
+    int key;
+    cout<<"enter key :";
+    cin>>key;
+    for(int i=0;i<7;i++)
+    {
+        if(key==A[i])
+        {
+            cout<<"Element found at "<<i<<"position"<<endl;
+            return 0;
+        }
+    }
+    cout<<"Element not found";
+}
+ 
