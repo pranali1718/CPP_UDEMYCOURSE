@@ -41,3 +41,40 @@ int main()
     mul(4,4);
     Div(10,5);
 }
+
+
+
+///////////////////////////with arguments with return type///////////
+
+
+#include <iostream>
+
+using namespace std;
+
+int add(int x,int y)
+{   
+    return x+y;
+}
+
+int sub(int x,int y)
+{
+    return x-y;
+}
+
+int mul(int x,int y)
+{   
+    return x*y;
+}
+
+int Div(int x,int y)
+{   
+    return x/y;
+}
+int main()
+{
+    cout<<"DIV : "<<Div(10,5)<<endl;
+    cout<<"MUL : "<<mul(4,4)<<endl;
+    cout<<"SUB : "<<sub(10,5)<<endl;
+    cout<<"ADD : "<<add(4,6);
+
+}
