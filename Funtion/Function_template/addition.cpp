@@ -13,6 +13,25 @@ int main()
     return 0;
 }
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#include <iostream>
+using namespace std;
+
+template <class T>
+T add(T a, T b) 
+{
+  return a+b;
+}
+int main ()
+{
+  int i=5, j=6;
+  float s=1.8,n=9.0;
+  long l=10, m=50;
+  cout << add<int>(i,j) << endl;
+  cout << add<float>(s,n) << endl;
+  cout << add<long>(l,m) << endl;
+  return 0;
+}
 
 
 
