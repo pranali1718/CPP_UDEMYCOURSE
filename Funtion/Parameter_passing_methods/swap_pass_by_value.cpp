@@ -23,3 +23,31 @@ int main()
 	return 0;
 	    
 }
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#include<iostream>
+using namespace std;
+
+int swapping(int x,int y)
+{
+    int temp;
+    temp =x;
+    x=y;
+    y=temp;
+    cout<<x<<" "<<y;
+    return 0;
+}
+
+int main()
+{
+    int x,y;
+    x=9;y=6;
+    swapping(x,y);
+    return 0;
+}
