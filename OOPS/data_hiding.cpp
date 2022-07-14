@@ -67,8 +67,8 @@ using namespace std;
 
 class rectangle
 {
-    int Length=2;                   //passing parameters as private
-    int Breadth=2;
+    int Length;                   //passing parameters as private
+    int Breadth;
     
     public:                         //declaring them as public
     
@@ -124,8 +124,8 @@ using namespace std;
 
 class rectangle
 {
-    int Length=2;                   //passing parameters as private
-    int Breadth=2; 
+    int Length;                   //passing parameters as private
+    int Breadth; 
     
     public:                         //declaring them as public
     
