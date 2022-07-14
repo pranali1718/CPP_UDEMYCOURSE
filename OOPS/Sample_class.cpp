@@ -50,3 +50,31 @@ int main()
     return 0;
 }
 
+/*passing parameter as private and function as public*/
+
+#include <iostream>
+using namespace std;
+
+class rectangle
+{
+    int length=2;                   //passing parameters as private 
+    int breadth=2;
+    
+    public:                         //declaring them as public
+    int area()                      //creating fucntion
+    {
+        return length*breadth;
+    }   
+    int perimeter()
+    {
+        return 2*(length+breadth);
+    }
+};                                  //closing fucntion
+int main()
+{
+   
+    rectangle r1;                   //creating object of class  
+    cout<<"Area Is:"<<r1.area()<<endl;                //calling function using object
+    cout<<"Perimeter Is:"<<r1.perimeter(); 
+    return 0;
+}
