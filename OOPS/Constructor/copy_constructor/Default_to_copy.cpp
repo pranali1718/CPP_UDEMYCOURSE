@@ -4,7 +4,8 @@
 using namespace std;
 
 
-class Number{
+class Number
+{
     int a;
     public:
         Number()
@@ -19,37 +20,23 @@ class Number{
             a = obj.a+1;
         }
 
-        void display(){
+        void display()
+        {
             cout<<"The number for this object is "<< a <<endl;
         }
 };
 int main()
 {
-    Number x;
-    Number z=x;
+    Number x;                   //default constructoris call
+   // Number z=x;
     
-    x.display();
+    x.display();                //default constructor display
     cout<<endl;
-   
-    z.display();
+    Number z(x);                //copy constructor is call
+    z.display();                //copy constructor display
     cout<<endl;
-    
-    
-    
-   /* Number x, y, z2;
-    x.display();
-    y.display();*/
-   // z.display();
-
-   /* Number z1(); // Copy constructor invoked
-    z1.display();
-
-   
-
-    Number z3 = z; // Copy constructor invoked
-    z3.display();*/
-
-    // z1 should exactly resemble z  or x or y
 
     return 0;
 }
+
+
