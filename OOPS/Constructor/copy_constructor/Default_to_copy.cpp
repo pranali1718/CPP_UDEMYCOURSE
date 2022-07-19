@@ -28,7 +28,7 @@ class Number
 int main()
 {
     Number x;                   //default constructoris call
-   // Number z=x;
+   // Number z=x;                  //assignemtn opeartor is called
     
     x.display();                //default constructor display
     cout<<endl;
