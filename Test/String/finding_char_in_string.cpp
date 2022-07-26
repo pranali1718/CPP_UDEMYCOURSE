@@ -5,7 +5,7 @@ int main()
 {
     string a;
     char b;
-    int temp;
+    int temp=1;
     
     cout<<"Enter string : ";
     cin>>a;
