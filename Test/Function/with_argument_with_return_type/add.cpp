@@ -20,3 +20,22 @@ int main()
     cout<<fun(a,b);
 }
 
+
+
+/////////////////////////////////////////////////////////////////
+
+
+#include<iostream>
+using namespace std;
+
+int fun(int x,int y)
+{
+    return x+y;
+}
+
+int main()
+{
+    cout<<"Addition is : ";
+    cout<<fun(3,4);
+}
+
