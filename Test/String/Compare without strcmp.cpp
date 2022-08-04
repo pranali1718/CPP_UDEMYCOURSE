@@ -1,3 +1,7 @@
+
+//Write a program to compare if the two strings entered by user are equal or not without using predefined String functions.
+
+
 #include <iostream>
 #include <cstring>
 using namespace std;
