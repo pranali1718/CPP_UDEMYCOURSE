@@ -1,5 +1,5 @@
 /*
-here in this code hybrid inheritance grand_f <- father || father,mother <- son
+here in this code hiearchical inheritance 
 while calling the function there is single object for the every function call
 
 ****** following the way for calling function ******
