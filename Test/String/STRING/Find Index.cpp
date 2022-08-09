@@ -18,3 +18,25 @@ int main()
     
     return 0;
 }
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+    
+            
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string a;
+    string key;
+    cout<<"Enter String: ";
+    getline(cin,a);
+    cout<<endl;
+    cout<<"\nEnter Letter you want find index : ";
+    getline(cin,key);
+    
+    cout<<"\n Your Key find at :"<<a.find(key);
+
+    return 0;
+}
