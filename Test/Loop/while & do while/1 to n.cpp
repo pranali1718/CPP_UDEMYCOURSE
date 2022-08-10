@@ -11,7 +11,7 @@ using namespace std;
     }
         return 0;
 }*/
-
+===========================================================================================
 int main()
 {
     int n=1;
@@ -21,5 +21,21 @@ int main()
         n++;
     }
     while(n<=10);
+    
+}
+
+
+--------------------------------------------------------------------------
+    int main()
+{
+    int n=1,key;
+    cout<<"Enter Limit you want to print : ";
+    cin>>key;
+    do
+    {
+        cout<<n<<endl;
+        n++;
+    }
+    while(n<=key);
     
 }
