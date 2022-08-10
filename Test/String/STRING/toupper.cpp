@@ -1,20 +1,12 @@
-/*
-in this code i used the function
-
-toupper();
-tolower();
-
-for convert the sentence in uppercase and lowercase 
-*/
-
-
 #include <iostream>
 #include <cstring>
 using namespace std;
 
 int main()
 {
-    string a={  "I M Pranali"  };
+    string a;
+    cout<<"enter string : ";
+    getline(cin,a);
     int b=a.length();
     cout<<b<<endl;
     
@@ -31,7 +23,7 @@ int main()
     cout<<endl;
     for(int i=0;i<b;i++)
     {
-        if(i==10)
+        if(i==4 || i==5)
         {
             a[i]=toupper(a[i]);
         }
@@ -39,3 +31,5 @@ int main()
     cout<<a;
     return 0;
 }
+
+
