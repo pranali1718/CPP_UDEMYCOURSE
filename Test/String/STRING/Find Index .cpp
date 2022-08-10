@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std;
 
 int main()
 {   
@@ -11,28 +13,19 @@ int main()
     }
     cout<<"\nEnter word you want to find : ";
     cin>>key;
-    for(int i=0;i<7;i++)
+    for(int i=0;i<20;i++)
     {
         if(a[i]==key)
         {
-            temp=1;
+            
             cout<<"found at :"<<i;
-            break;
+            temp=1;
         }
-        else
+    }
+    
+    if(temp==0)
         {
             cout<<"not found";
-            break;
         }
-    }
-   /* if(temp==1)
-    {
-        cout<<"element found ";
-    }
-    else
-    {
-        cout<<"not found";
-    }*/
-    
     return 0;
 }
