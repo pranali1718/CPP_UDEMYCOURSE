@@ -1,11 +1,3 @@
-/*here I passed the address of value to the function "add(&a,&b);"
-
-in fun 
-    void add(int *x,int *y) is ready to recieve that address n accept the value whihc present at that address and performs the addtion\
-    */
-
-
-
 #include <iostream>
 using namespace std;
 
