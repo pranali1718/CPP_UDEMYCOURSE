@@ -1,26 +1,22 @@
-/*here I passed the address of value to the function "add(&a,&b);"
+/*in this code ,at main addtion function passing the values[add(x,y);] and function
+while receving at function the address of another varibale are ready to
+recevies the values[void add(int &p,int &q)]
 
-in fun 
-    void add(int *x,int *y) is ready to recieve that address n accept the value whihc present at that address and performs the addtion\
-    */
-
-
-
-#include <iostream>
+*/
+#include<iostream>
 using namespace std;
 
-void add(int *x,int *y)                     //add fun having pointer x & y receives the value at the address of a and b
+void add(int &p,int &q)
 {
-    cout<<"Add stor at x :"<<x<<endl;                          //address of a 
-    cout<<"Addition is : "<<*x+*y;          // perform Addition
+    cout<<"add is :"<<p+q;
+    
 }
+
 int main()
 {
-    int a,b;
-    cout<<"Enter Two Number : ";
-    cin>>a>>b;
-    cout<<"add a :"<<&a<<endl;
-    add(&a,&b);                             //passing the address of varibles
-    
+    int x=2,y=2;
+    add(x,y);
     return 0;
+    
 }
+
