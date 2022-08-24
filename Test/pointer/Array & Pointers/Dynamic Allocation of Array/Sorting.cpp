@@ -20,7 +20,7 @@ int main()
     cout<<"Entered charaters : ";
     for(int i=0;i<size;i++)
     {
-        cout<<*(cp+i)<<" ";
+        cout<<*(cp+i)<<" "<<" ";
     }
     
     cout<<"\nSorted charaters : ";
@@ -39,7 +39,14 @@ int main()
     for(int i=0;i<size;i++)
     {
         cout<<cp[i]<<" ";
+        //cout<<(cp+i)<<" ";
     }
+    cout<<endl;
+    for(int i=0;i<size;i++)
+    {
+        cout<<(int*)cp[i]<<endl;
+    }
+    
     delete(cp);
     return 0;
 }
