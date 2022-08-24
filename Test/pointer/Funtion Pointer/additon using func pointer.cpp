@@ -13,15 +13,15 @@ int main()
     ptr();
 }
 ---------------------------------------------------------------------------------------------------------------------------------------
-    #include<iostream>
+    
+    
+#include<iostream>
 using namespace std;
 
 void add(int a,int b)
 {
     cout<<"add is :"<<a+b;
 }
-
-
 int main()
 {
     void(*funcptr)(int ,int );
