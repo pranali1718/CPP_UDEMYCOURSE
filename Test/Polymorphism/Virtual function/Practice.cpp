@@ -10,20 +10,22 @@
         code runs ,but even if i store the the address of obj_b to to the pointer *a(obj)
         
         still it displays the function of class A ,not the class B
+    for displaying the function of class B have to  use vritual keyword
+        and user arrow operator to function call.
  **********************************************************************************************/
 #include <iostream>
 using namespace std;
 
-class A
+class A                                                         //declare and define class A
 {
     public:
- virtual void display()
+ virtual void display()                                         //use virtual keyword
     {
         cout<<"Class A ";
     }
 };
 
-class B : public A
+class B : public A                                          //declare and define class A ,inheritng Class A
 {
     void display()
     {
@@ -33,11 +35,11 @@ class B : public A
 
 int main()
 {
-    A *a,p;
-    B b;
+    A *a;                                                   //pointer object of Class A
+    B b;                                                    //object class b
     
-    a = &b;
-    a->display();
+    a = &b;                                                 //store  add of obj_b TO OBJ_a
+    a->display();                                           //calling function
     
 
     return 0;
