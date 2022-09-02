@@ -40,7 +40,10 @@ int main()
     
     a = &b;                                                 //store  add of obj_b TO OBJ_a
     a->display();                                           //calling function
-    
+    /*
+    A *ptr=new B();                                         //another method of calling fucntion
+    ptr->display();                 
+    */
 
     return 0;
 }
