@@ -37,7 +37,9 @@ int main()
 {
     A *a;                                                   //pointer object of Class A
     B b;                                                    //object class b
-    
+    cout<<endl<<"Calling class A function - "<<endl;
+    obj.display();                                          
+    cout<<endl;
     a = &b;                                                 //store  add of obj_b TO OBJ_a
     a->display();                                           //calling function
     /*
