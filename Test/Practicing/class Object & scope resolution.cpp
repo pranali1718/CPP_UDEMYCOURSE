@@ -14,15 +14,15 @@ class Items
     void get_data();
 };
 
-void Items :: set_data(int a,float b)
+inline void Items :: set_data(int a,float b)
 {
     number=a;
     cost=b;
 }
 
-void Items :: get_data()
+inline void Items :: get_data()
 {
-    cout<<"total Number of items : "<<number;
+    cout<<"\ntotal Number of items : "<<number;
     cout<<"\ntotal cost is : "<<cost;
 }
 
@@ -30,7 +30,11 @@ void Items :: get_data()
 int main()
 {
     Items obj;
-    obj.set_data(10,300.89);
+    obj.set_data(1,300.89);
     obj.get_data();
+    
+    Items obj1;
+    obj1.set_data(2,100.9);
+    obj1.get_data();
     return 0;
 }
