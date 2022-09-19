@@ -1,5 +1,5 @@
 /******************************************************************************
- * Constant Qualifier-(constant pointer)
+ * Constant Qualifier-(pointer to integer constant)
  * use "const" keyword 
  * the value throught the program cant get changed
  * here data is constant but we can assign any new value to the same pointer 
