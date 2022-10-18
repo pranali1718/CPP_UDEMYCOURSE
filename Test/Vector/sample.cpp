@@ -4,7 +4,12 @@
  * we can add element as we want.
  * size automatically increase as we adding the elements 
  * Syntax 
- *      vector <data_type> vector_name;  
+ *      vector <data_type> vector_name;
+ * 
+ * There are 3 member fuction of vectors
+ * 1.modifiers
+ * 2.iterators
+ * 3.capacity
 *******************************************************************************/
 
 #include <iostream>
