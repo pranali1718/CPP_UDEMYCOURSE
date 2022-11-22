@@ -20,7 +20,7 @@ using namespace std;
 void fun()
 {
     cout<<"------------------Unique Pointer-----------------"<<endl<<endl;
-    unique_ptr <int> p1 (new int (20));                                 //creating unique pointer
+    unique_ptr <int> p1 (new int (20));                                 //direct initilize unique pointer
 
     cout<<"Value of Pointer is : "<<*p1<<endl;                                                    //printfing *p1
     
