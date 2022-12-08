@@ -1,3 +1,11 @@
 ----------------------------------------------------------------------------------------------------------
-                                Lambda Functions
+                                      Lambda Functions(c++11)
 ----------------------------------------------------------------------------------------------------------
+
+[ ] = known as capture list or lambda introduces
+( ) = known as parameter list
+
+Syntax :
+       [capture_list](parameter_list)->return_type{body}(f_call);
+
+
