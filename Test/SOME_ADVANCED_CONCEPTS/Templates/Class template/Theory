@@ -1,0 +1,21 @@
+/**************************************************************************************
+ * ------------------- Template Class --------------------
+ *
+ * 1. It's little bit different from the template function.
+ * 2. In class template, compiler can't deduce the parametertype, we have to tell the compiler which data type we will using.
+ * 
+ * Syntax:
+ *      template<class/typename T>
+ *      class class_name
+ *      {
+ *          //body;
+ *      };
+ * 
+***************************************************************************************/
+/**************************************************************************************
+ * ------------------- Template Class & function Outside the class--------------------
+ *
+ *  1. When we defining function, constructor outside the class, we have to again write that template statement above the defination
+ *  
+***************************************************************************************/
+
