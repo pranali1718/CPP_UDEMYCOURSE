@@ -1,11 +1,57 @@
-----------------------------------------------------------------------------------------------------------
-                                      Lambda Functions(c++11)
-----------------------------------------------------------------------------------------------------------
+/***********************************************************************************************
+ * --------------------------------  Lambda Functions -------------------------------
+ * 
+ * Basic Lambda Function Example
+ * 
+ * Synatx:
+ *      [captured_list](Parameter_list){ // Body }(Function_Call);
+ * 
+ * Captured List - defines the outside varibale which are accessible in the labda function body
+ *                 
+ * Parameter List - it contains the parameters
+ * 
+ * Body - function body
+***********************************************************************************************/
 
-[ ] = known as capture list or lambda introduces
-( ) = known as parameter list
+---Sample Code----
 
-Syntax :
-       [capture_list](parameter_list)->return_type{body}(f_call);
+#include<iostream>
+using namespace std;
 
+int main()
+{
+    [](){
+        cout<<"Hello World!"<<endl;
+    }();
+    
+    return 0;
+}
+
+***********************************************************************************************
+/**********************************************************************************************
+  * Parameter passing to Lambda Functions
+ * 
+ * Synatx:
+ *      [](int , int ){ // Body }(Function_Call);
+ * 
+ * 
+***********************************************************************************************/
+/***********************************************************************************************
+  * Return type in lambda fucntions
+ * 
+ * Synatx:
+ *      [](int , int ) -> return type{ // Body }(Function_Call);
+ * 
+ * 
+***********************************************************************************************/
+/***********************************************************************************************
+ * Values pass by the reference 
+ * 
+ * if we want to modify the values in lambda function then and only we have to use reference.
+ * 
+ * Synatx:
+ *      [&var,&var](int , int ){ // Body }(Function_Call);
+ * 
+ * 
+***********************************************************************************************/
 
